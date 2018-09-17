@@ -1,8 +1,11 @@
-## Welcome to GitHub Pages
+## Representation Learning Introduction
+In representation learning, features are extracted from unlabeled data by training a neural network on a secondary,supervised learning task.
+A good representation is one that makes a subsequent learning task easier. The choice of representation will usually depend on the choice of the subsequent learning task
+**Motivation of Represntation Learning**:
+Algorithms that can extract features from unlabeled data to improve the performance of data-limited tasks 
 
-You can use the [editor on GitHub](https://github.com/rohit46666/Rohit-Chaudhary.github.io/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+**Greedy layer-wise pretraining** is called greedy because it is agreedy algo meaning that it optimizes each piece of the solution independently,one piece at a time, rather than jointly optimizing all pieces. It is called layer-wise because these independent pieces are the layers of the network. Speciﬁcally, greedy layer-wise pretraining proceeds one layer at a time, training the k-th layer while keeping the previous ones ﬁxed. It is called unsupervised because each layer is trained with an unsupervised representation learning algorithm. However, it is also called pretraining because it is supposed to be only a ﬁrst step before a joint training algorithm is applied to ﬁne-tune all thelayers together.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
 ### Markdown
 
