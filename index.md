@@ -1,7 +1,7 @@
 ## Representation Learning Introduction
 In representation learning, features are extracted from unlabeled data by training a neural network on a secondary,supervised learning task.
 A good representation is one that makes a subsequent learning task easier. The choice of representation will usually depend on the choice of the subsequent learning task
-## Motivation of Represntation Learning:
+## Motivation of Represntation Learning
 Algorithms that can extract features from unlabeled data to improve the performance of data-limited tasks 
 
 ## Greedy layer-wise pretraining
