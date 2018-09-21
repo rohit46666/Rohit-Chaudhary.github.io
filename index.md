@@ -5,7 +5,7 @@ A good representation is one that makes a subsequent learning task easier. The c
 Algorithms that can extract features from unlabeled data to improve the performance of data-limited tasks 
 
 ## Greedy layer-wise pretraining
-its is called greedy because it is agreedy algo meaning that it optimizes each piece of the solution independently,one piece at a time, rather than jointly optimizing all pieces. It is called layer-wise because these independent pieces are the layers of the network. Speciﬁcally, greedy layer-wise pretraining proceeds one layer at a time, training the k-th layer while keeping the previous ones ﬁxed. It is called unsupervised because each layer is trained with an unsupervised representation learning algorithm. However, it is also called pretraining because it is supposed to be only a ﬁrst step before a joint training algorithm is applied to ﬁne-tune all thelayers together.
+Its is called greedy because it is agreedy algo meaning that it optimizes each piece of the solution independently,one piece at a time, rather than jointly optimizing all pieces. It is called layer-wise because these independent pieces are the layers of the network. Speciﬁcally, greedy layer-wise pretraining proceeds one layer at a time, training the k-th layer while keeping the previous ones ﬁxed. It is called unsupervised because each layer is trained with an unsupervised representation learning algorithm. However, it is also called pretraining because it is supposed to be only a ﬁrst step before a joint training algorithm is applied to ﬁne-tune all thelayers together.
 
 
 ## Representation Learning: A Review and New Perspectives outlines
@@ -15,15 +15,14 @@ The paper  motivation is threefold:
  - What is the connection between representation learning, density estimation, and manifold learning
  ### WHY SHOULD WE CARE ABOUT LEARNING REPRESENTATIONS?
 
-- Speech Recognition and Signal Processing
-	Representation-learning algorithms have also been applied to music, substantially beating the state-of-the-art in polyphonic transcription
+- Speech Recognition and Signal Processing:
+Representation-learning algorithms have also been applied to music, substantially beating the state-of-the-art in polyphonic transcription
 
-- Object Recognition
+- Object Recognition:
 Deep learning has moved from digits to object recognition in natural images, and the latest
 breakthrough has been achieved on the ImageNet dataset4 bringing down the state-of-the-art error rate from 26.1% to 15.3%
 
-- Multi-Task and Transfer Learning, Domain Adaptation
-
+- Multi-Task and Transfer Learning, Domain Adaptation:
 Transfer learning is the ability of a learning algorithm to exploit commonalities between different learning tasks in order to share statistical strength, and transfer knowledge across tasks.Most impressive are the two transfer learning challenges held in 2011 and won by representation learning algorithms.
  
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
