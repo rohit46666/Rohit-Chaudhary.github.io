@@ -46,13 +46,16 @@ Transfer learning is the ability of a learning algorithm to exploit commonalitie
 Depth is a key aspect to representation learning strategies comes with some advantages
 - deep architectures promote the re-use of features, and
 - deep architectures can potentially lead to progressively more abstract features at higher layers of representations.
+
 ### Principal Components Analysis 
 The main idea of principal component analysis (PCA) is to reduce the dimensionality of a data set consisting of many variables correlated with each other, either heavily or lightly, while retaining the variation present in the dataset, up to the maximum extent. 
 
 **Comparision of PCA done with the probabilistic,auto-encoder and manifold with representation learning**
 PCA learns a linear transformation h = f(x) = WT x + b of input x ∈ R dx , where the columns of dx × dh matrix W form an orthogonal basis for the dh orthogonal directions of greatest variance in the training data. The result is dh features (the components of representation h) that are decorrelated.
  The three interpretations of PCA are the following:
-  - it is related to probabilistic models such as probabilistic PCA, factor analysis and the traditional
-multivariate Gaussian distribution (the leading eigenvectors of the covariance matrix are the principal components);
-  - the representation it learns is essentially the same as that learned by a basic linear auto-encoder ;
+  - it is related to probabilistic models such as probabilistic PCA, factor analysis and the traditional multivariate Gaussian distribution (the leading eigenvectors of the covariance matrix are the principal components)
+  - the representation it learns is essentially the same as that learned by a basic linear auto-encoder
   - it can be viewed as a simple linear form of linear manifold learning ,characterizing a lower-dimensional region in 
+
+
+** TO BE CONtinuted
