@@ -34,7 +34,7 @@ Transfer learning is the ability of a learning algorithm to exploit commonalitie
  - Temporal and spatial coherence
  - Sparsity
  
- ** Smoothness and the Curse of Dimensionality**
+ **Smoothness and the Curse of Dimensionality**
  Although smoothness can be a useful assumption, it is insufficient to deal with the curse of dimensionality, because the number of such wrinkles (ups and downs of the target function) may grow exponentially with the number of relevant interacting factors, when the data are represented in raw input space
 
  **Distributed representations**
@@ -46,6 +46,7 @@ Transfer learning is the ability of a learning algorithm to exploit commonalitie
 Depth is a key aspect to representation learning strategies comes with some advantages
 - deep architectures promote the re-use of features, and
 - deep architectures can potentially lead to progressively more abstract features at higher layers of representations.
+
 
 
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
