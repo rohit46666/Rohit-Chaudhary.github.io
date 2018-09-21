@@ -13,7 +13,18 @@ The paper  motivation is threefold:
  - Right objectives to learn good representations,
  - how do we compute these representations, 
  - What is the connection between representation learning, density estimation, and manifold learning
- 
+ ### WHY SHOULD WE CARE ABOUT LEARNING REPRESENTATIONS?
+
+- Speech Recognition and Signal Processing
+	Representation-learning algorithms have also been applied to music, substantially beating the state-of-the-art in polyphonic transcription
+
+- Object Recognition
+Deep learning has moved from digits to object recognition in natural images, and the latest
+breakthrough has been achieved on the ImageNet dataset4 bringing down the state-of-the-art error rate from 26.1% to 15.3%
+
+- Multi-Task and Transfer Learning, Domain Adaptation
+
+Transfer learning is the ability of a learning algorithm to exploit commonalities between different learning tasks in order to share statistical strength, and transfer knowledge across tasks.Most impressive are the two transfer learning challenges held in 2011 and won by representation learning algorithms.
  
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
