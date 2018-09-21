@@ -10,10 +10,9 @@ its is called greedy because it is agreedy algo meaning that it optimizes each p
 
 ## Representation Learning: A Review and New Perspectives outlines
 The paper  motivation is threefold:
-- Bulleted
- Right objectives to learn good representations,
- hHw do we compute these representations, 
- What is the connection between representation learning, density estimation, and manifold learning
+ -Right objectives to learn good representations,
+ -how do we compute these representations, 
+ -What is the connection between representation learning, density estimation, and manifold learning
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
 ```markdown
