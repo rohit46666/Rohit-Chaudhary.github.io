@@ -49,10 +49,10 @@ Depth is a key aspect to representation learning strategies comes with some adva
 ### Principal Components Analysis 
 The main idea of principal component analysis (PCA) is to reduce the dimensionality of a data set consisting of many variables correlated with each other, either heavily or lightly, while retaining the variation present in the dataset, up to the maximum extent. 
 
-**comparision of PCA done with the probabilistic,auto-encoder and manifold with representation learning**
+**Comparision of PCA done with the probabilistic,auto-encoder and manifold with representation learning**
 PCA learns a linear transformation h = f(x) = WT x + b of input x ∈ R dx , where the columns of dx × dh matrix W form an orthogonal basis for the dh orthogonal directions of greatest variance in the training data. The result is dh features (the components of representation h) that are decorrelated.
  The three interpretations of PCA are the following:
   - it is related to probabilistic models such as probabilistic PCA, factor analysis and the traditional
 multivariate Gaussian distribution (the leading eigenvectors of the covariance matrix are the principal components);
   - the representation it learns is essentially the same as that learned by a basic linear auto-encoder ;
-  - it can be viewed as a simple linear form of linear manifold learning , i.e., characterizing a lower-dimensional region in 
+  - it can be viewed as a simple linear form of linear manifold learning ,characterizing a lower-dimensional region in 
