@@ -1,20 +1,21 @@
 ## Representation Learning Introduction
 In representation learning, features are extracted from unlabeled data by training a neural network on a secondary,supervised learning task.
 A good representation is one that makes a subsequent learning task easier. The choice of representation will usually depend on the choice of the subsequent learning task
+
 ## Motivation of Represntation Learning
 Algorithms that can extract features from unlabeled data to improve the performance of data-limited tasks 
 
 ## Greedy layer-wise pretraining
-Its is called greedy because it is agreedy algo meaning that it optimizes each piece of the solution independently,one piece at a time, rather than jointly optimizing all pieces. It is called layer-wise because these independent pieces are the layers of the network. Speciﬁcally, greedy layer-wise pretraining proceeds one layer at a time, training the k-th layer while keeping the previous ones ﬁxed. It is called unsupervised because each layer is trained with an unsupervised representation learning algorithm. However, it is also called pretraining because it is supposed to be only a ﬁrst step before a joint training algorithm is applied to ﬁne-tune all thelayers together.
+Its is called greedy because it is a greedy algo meaning that it optimizes each piece of the solution independently,one piece at a time, rather than jointly optimizing all pieces. It is called layer-wise because these independent pieces are the layers of the network. Speciﬁcally, greedy layer-wise pretraining proceeds one layer at a time, training the k-th layer while keeping the previous ones ﬁxed. It is called unsupervised because each layer is trained with an unsupervised representation learning algorithm. However, it is also called pretraining because it is supposed to be only a ﬁrst step before a joint training algorithm is applied to ﬁne-tune all the layers together.
 
 
 ## Representation Learning: A Review and New Perspectives outlines
 The paper  motivation is threefolded into:
  - Right objectives to learn good representations,
  - how do we compute these representations, 
- - What is the connection between representation learning, density estimation, and manifold learning
- ### WHY SHOULD WE CARE ABOUT LEARNING REPRESENTATIONS?
+ - What is the connection between representation learning, density estimation, and manifold learning.
 
+### WHY SHOULD WE CARE ABOUT LEARNING REPRESENTATIONS?
 - **Speech Recognition and Signal Processing**:
 Representation-learning algorithms have also been applied to music, substantially beating the state-of-the-art in polyphonic transcription
 
