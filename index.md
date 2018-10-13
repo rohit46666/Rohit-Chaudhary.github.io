@@ -26,6 +26,7 @@ breakthrough has been achieved on the ImageNet dataset4 bringing down the state-
 Transfer learning is the ability of a learning algorithm to exploit commonalities between different learning tasks in order to share statistical strength, and transfer knowledge across tasks.Most impressive are the two transfer learning challenges held in 2011 and won by representation learning algorithms.
 
 ### WHAT MAKES A REPRESENTATION GOOD?
+
 **Priors for Representation Learning in AI**
  One reason why explicitly dealing with representations is interesting is because they can be convenient to express many general priors about the world around us, i.e., priors that are not task-specific but would be likely to be useful for a learning machine to solve AI-tasks
  - Smoothness
